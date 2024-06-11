@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      label {
+        display: block;
+        margin-bottom: 5px;
+      }
+      div {
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="">
+      <fieldset>
+        <legend>Kişisel</legend>
+
+        <div>
+          <label for="name">İsim</label>
+          <input type="text" id="name" />
+        </div>
+        <div>
+          <label for="lastname">Soyisim</label>
+          <input type="text" id="lastname" />
+        </div>
+        <div>
+          <label for="email">E-posta</label>
+          <input type="email" id="email" placeholder="abc@hotmail.com" />
+        </div>
+        <div>
+          <label for="gender">Cinsiyet</label>
+          <input type="radio" name="gender" id="" value="male" />Erkek
+          <input type="radio" name="gender" id="" value="female" />Kadın
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Password</legend>
+        <div>
+          <input type="password" />
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Favori Meyveniz</legend>
+        <div>
+          <select name="sehir" id="">
+            <option value="">Seçiniz</option>
+            <option value="banana">Muz</option>
+            <option value="strawberry">Çilek</option>
+            <option value="pineapple">Ananas</option>
+            <option value="apple">Elma</option>
+            <option value="grape">Üzüm</option>
+          </select>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Bana Ulaş</legend>
+        <div class="">
+          <label for="metin">Metin</label>
+          <textarea name="metin" id="metin" rows="5" cols="50"></textarea>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Son Adım</legend>
+        <div>
+          <button type="submit">Gönder</button>
+          <button type="reset">Sıfırla</button>
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>
