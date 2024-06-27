@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+/*Navbar*/
+nav {
+  background-color: #333;
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  position: sticky;
+  top: 0;
+  padding: 15px 8%;
+  color: white;
+}
+nav a {
+  color: white;
+}
+nav ol {
+  display: flex;
+  list-style-type: none;
+}
+nav ol li {
+  margin-left: 15px;
+}
+
+/* Main */
+main {
+  padding: 20px 8%;
+  height: calc(100vh - 85px);
+}
+main h1{
+  margin: 10px 0;
+  text-align: center;
+}
+main div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+main div .card {
+  justify-content: center;
+  background-color: white;
+  text-align: justify;
+  padding: 20px;
+  width: 400px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+}
+
+main div div img {
+  width: 100%;
+}
+main div div h1 a{
+  color: #333;
+}
+main div div p a{
+  color: #333;
+  margin-left: 10px;
+}
+
+/*Footer */
+footer {
+  height: 50px;
+  background-color: #333;
+  text-align: center;
+  padding-top: 15px;
+  color: white;
+}
+
+/* Article*/
+article {
+  padding: 20px 8%;
+  letter-spacing: 2px;
+  line-height: 1.6;
+  text-align: justify;
+}
+article h2 {
+  margin-top: 20px;
+}
+article img {
+  margin-bottom: 20px;
+}
+h1,
+h2 {
+  color: #333;
+}
+p {
+  color: #666;
+}
+a {
+  text-decoration: none;
+}
