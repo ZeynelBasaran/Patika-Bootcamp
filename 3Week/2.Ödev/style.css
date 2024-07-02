@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Bona Nova SC", serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #f4f4f4;
+  font-size: 16px;
+}
+
+/* Navbar */
+nav {
+  background-color: #333;
+  height: 50px;
+  position: sticky;
+  top: 0;
+  padding: 15px 8%;
+  color: white;
+}
+nav ul {
+  display: flex;
+  justify-content: right;
+  list-style-type: none;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+nav a:hover {
+  color: gray;
+}
+nav ul li {
+  margin-right: 15px;
+}
+
+/*Main*/
+main {
+  display: flex;
+  padding: 50px;
+  justify-content: center;
+  align-items: center;
+}
+main img {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+}
+main div .p1 {
+  padding: 50px;
+  line-height: 1.6;
+  text-align: justify;
+  font-size: 1.5rem;
+  color: gray;
+  letter-spacing: 1.5px;
+}
+main div .p2 {
+  padding: 50px;
+  font-size: 2rem;
+  text-align: end;
+}
+
+/*  Section1 */
+.section1{
+  background-color: #333;
+  padding: 50px 8%;
+  text-align: justify;
+  color: white;
+}
+.section1 p{
+ margin: 30px 0;
+}
+.section2{
+  padding: 50px 8%;
+  text-align: justify;
+  color: white;
+}
+.section2 ul {
+  margin: 50px 0;
+  list-style: none;
+  color: #333;
+}
+
+footer{
+  text-align: center;
+  background-color: #333;
+  color: white;
+}
+
+
+/*Responsive*/
+
+/* Small devices (landscape phones, 576px and up) 
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+}
+ */
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+  main {
+    flex-direction: column;
+  }
+}
