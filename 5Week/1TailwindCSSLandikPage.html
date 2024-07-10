@@ -30,7 +30,7 @@
     </nav>
 
     <main class="container mx-auto bg-slate-50 my-5 rounded-lg">
-      <div class="grid grid-cols-2 rounded-lg">
+      <div class="grid grid-cols-1 lg:grid-cols-2 rounded-lg">
         <div class="basis-1/4 text-center p-20">
           <h3 class="text-purple-800 mb-2">Mamba Design System</h3>
           <h1 class="text-5xl font-extrabold mb-2">Build it with the Mamba</h1>
@@ -48,8 +48,8 @@
         </div>
         <div class="basis-3/4 rounded-lg">
           <img
-            class="w-full object-cover max-h-full"
-            src="https://picsum.photos/300/300"
+            class="w-full object-cover"
+            src="https://picsum.photos/800/800"
             alt=""
           />
         </div>
@@ -61,8 +61,8 @@
       </div>
 
       <div class="rounded-lg">
-        <div class="grid grid-cols-3 bg-gray-300">
-          <div class="p-6 bg-white me-2 rounded-lg">
+        <div class="grid grid-cols-1 gap-4 md:grid-cols-3 bg-gray-300">
+          <div class="p-6 bg-white rounded-lg">
             <div
               class="flex items-center justify-center rounded-full bg-purple-800 text-white size-8"
             >
@@ -81,7 +81,7 @@
             sit amet consectetur adipisicing elit. Aperiam quod eius voluptates,
             esse possimus et. Possimus odit placeat inventore laboriosam?
           </div>
-          <div class="p-6 bg-white ms-2 rounded-lg">
+          <div class="p-6 bg-white rounded-lg">
             <div
               class="flex items-center justify-center rounded-full bg-purple-800 text-white size-8"
             >
@@ -95,16 +95,22 @@
       </div>
     </main>
 
-    <section class="container mx-auto flex-column my-10 bg-gray-300">
-      <div class="flex bg-gray-300">
+    <section class="container mx-auto my-10 bg-gray-300">
+      <div class="grid grid-cols-1 lg:grid-cols-2 bg-gray-300 gap-10">
         <div>
-          <img src="https://picsum.photos/id/255/600/400" alt="" />
+          <img
+            class="w-full rounded-lg"
+            src="https://picsum.photos/id/270/600/400"
+            alt=""
+          />
         </div>
 
-        <div class="bg-white p-8 ms-8 flex-column  text-center">
-          <i
-            class="fa-regular fa-file size-20 bg-gray-300 text-white flex items-center justify-center rounded-full "
-          ></i>
+        <div class="bg-white p-8 text-center grid grid-rows-3 rounded-lg">
+          <div class="flex items-center justify-center">
+            <i
+              class="block fa-regular fa-file size-20 bg-gray-300 text-white flex items-center justify-center rounded-full"
+            ></i>
+          </div>
 
           <h5 class="text-2xl font-extrabold">
             Lorem ipsum dolor sit, amet consectetur adipisicing.
@@ -117,7 +123,7 @@
         </div>
       </div>
 
-      <div class="bg-white p-10">
+      <div class="bg-white p-10 mt-10 rounded-lg">
         <h5 class="text-2xl font-extrabold">Create With Us</h5>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quidem
@@ -130,11 +136,11 @@
     </section>
 
     <section class="container mx-auto flex-column my-10 bg-gray-300">
-      <div class="flex">
+      <div class="grid grid-cols-1 lg:grid-cols-2">
         <div>
           <img
             class="object-contain w-full h-auto"
-            src="https://picsum.photos/id/255/600/400"
+            src="https://picsum.photos/id/255/800/600"
             alt=""
           />
         </div>
@@ -153,7 +159,7 @@
           </div>
         </div>
       </div>
-      <div class="grid grid-cols-3 pt-5 gap-4">
+      <div class="grid grid-cols-1 sm:grid-cols-3 pt-5 gap-4">
         <div class="p-6 bg-white rounded-lg">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda,
           ad!
