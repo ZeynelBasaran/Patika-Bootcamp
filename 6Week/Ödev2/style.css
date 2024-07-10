@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+ul {
+  display: flex;
+  width: 100%;
+  gap: 5px;
+}
+ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  background-color: black;
+  color: white;
+}
+.rgba {
+  background-color: rgb(103, 99, 99);
+}
