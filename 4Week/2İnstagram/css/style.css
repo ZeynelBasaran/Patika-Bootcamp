@@ -48,3 +48,6 @@ input.empty {
 .middlearea{
   max-height: 200px !important
 }
+#sticky-sidebar{
+  position: sticky;
+}
