@@ -1,227 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-    />
-  </head>
-  <body class="bg-gray-100">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
- 
-    <!--Nav ve Head-->
-    <nav class="grid grid-cols-1 lg:grid-cols-3 gap-4 px-16 py-6 bg-white flex flex-wrap">
-      <ul class="flex lg:justify-start justify-between">
-        <li class=""><a href="">Link 1</a></li>
-        <li class="ms-4"><a href="">Link 2</a></li>
-        <li class="ms-4"><a href="">Link 3</a></li>
-      </ul>
+</head>
+<body>
+    <div class="bg-gray-100">
+        <nav class=" rounded  container mx-auto px-4 ">
+            <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+                <div class="relative flex h-16 items-center justify-center ">
 
-      <div class="text-center">
-        <i
-          class="fa-solid fa-c rounded-lg bg-purple-800 text-white px-4 py-2 cursor-pointer"
-        ></i>
-      </div>
+                    <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
+                        alt="Your Company">
 
-      <div class="bg-white flex lg:justify-end justify-between">
-        <i class="fa-solid fa-magnifying-glass me-2"></i>
-        <input type="text" placeholder="Search" class="p-1 me-2" />
-        <button class="rounded-lg bg-purple-800 text-white px-6 cursor-pointer">
-          Log in
-        </button>
-      </div>
-    </nav>
-    <header
-      class="grid grid-rows-3 gap-4 justify-center text-center bg-gray-300 p-20 xl:px-72"
-    >
-      <h1 class="text-3xl lg:text-5xl xl:text-7xl ">
-        Quesdom necessite
-        <span class="text-purple-800">vel laborum</span> doloribus delectus
-      </h1>
-      <p class="md:tracking-wide md:leading-loose">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi minima
-        cum hic facere veniam exercitationem dolorum consequuntur ipsam, fugit
-        voluptatem.
-      </p>
-      <div class="flex justify-center items-center">
-        <button
-          class="rounded-lg bg-purple-800 me-2 px-4 py-2 text-white cursor-pointer"
-        >
-          Get started
-        </button>
-        <button class="rounded-lg bg-white px-4 py-2">
-          <a href="">Learn More</a>
-        </button>
-      </div>
-    </header>
+                    <div class="absolute  right-0">
 
-    <!--Questions-->
-    <main class="container mx-auto bg-gray-100">
-      <p class="text-2xl text-center mt-6 font-bold">
-        What our customers are saying about us
-      </p>
-      <div class="grid md:grid-cols-2 grid-cols-1 grid-rows-2 p-20 gap-10">
-        <div class="bg-white p-10 rounded-lg position: relative">
-          <p class="p-14 tracking-wide leading-loose">
-            <i
-              class="fa-regular fa-2xl fa-comment-dots position: absolute top-16"
-            ></i
-            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
-            voluptatibus quod aspernatur eius, amet excepturi?<i
-              class="fa-regular fa-2xl fa-comment-dots position: absolute bottom-44 right-20"
-            ></i>
-          </p>
-          <div class="bg-purple-800 text-white text-center p-6">
-            Distincti Animo
-            <p class="font-thin">Alliqium Bruli</p>
-          </div>
+                        <div class="flex flex-shrink-0 items-center space-x-4">
+                            <span class="absolute inset-y-0  flex items-center ">
+                                <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M21 21l-4.35-4.35M16.65 9.5a7.15 7.15 0 11-14.3 0 7.15 7.15 0 0114.3 0z">
+                                    </path>
+                                </svg>
+                            </span>
+                            <input type="text" placeholder="Search..."
+                                class="px-4 py-2 rounded-md bg-gray-100 text-white focus:outline-none focus:ring-2 focus:ring-blue-500">
+
+                            <a href="#" class="rounded-md bg-purple-800 px-3 py-2 text-sm font-medium text-white"
+                                aria-current="page">Login</a>
+
+                        </div>
+                    </div>
+                    <div class="absolute  left-0 sm:ml-6 sm:block ">
+                        <div class="flex space-x-4">
+                            <a href="#"
+                                class="active-link rounded-md px-3 py-2 text-sm font-medium underline decoration-gray-500/30 decoration-4 underline-offset-8  active: decoration-purple-600">Link</a>
+                            <a href="#"
+                                class="rounded-md px-3 py-2 text-sm font-medium underline decoration-gray-500/30 decoration-4 underline-offset-8 ">Link</a>
+                            <a href="#"
+                                class="rounded-md px-3 py-2 text-sm font-medium text-black underline decoration-gray-500/30 decoration-4 underline-offset-8 hover:bg-gray-700 hover:text-white  ">Link</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class=" bg-gray-300 flex justify-center py-8">
+        <div class="container  items-center flex justify-center w-1/2  py-8 ">
+            <div class=" space-y-4  grid grid-cols-1 text-center ">
+                <h1 class="py-8 text-center  text-5xl font-bold ">Quisquam necessita <span class="block w-full">vel
+                        <span class="text-purple-900">laborum </span></span> <span
+                        class="text-purple-900">doloribus</span>delectus</h1>
+                <p class="    text-center  ">Lorem ipsum dolor sit amet consectetur adipisicing.<span
+                        class="block w-full"> Quam eos, adipisci labore incidunt Lorem ipsum dolor sit amet consectetur
+                        adipisicing</span> </p>
+
+
+                <div class="flex justify-center space-x-6">
+                    <button class="rounded-none bg-purple-600 text-white py-2 px-4 ">Get Started</button>
+                    <button class="rounded-none  ">Learn More</button>
+
+                </div>
+            </div>
         </div>
-        <div class="bg-white p-10 rounded-lg position: relative">
-          <p class="p-14 tracking-wide leading-loose">
-            <i
-              class="fa-regular fa-2xl fa-comment-dots position: absolute top-16"
-            ></i
-            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
-            voluptatibus quod aspernatur eius, amet excepturi?<i
-              class="fa-regular fa-2xl fa-comment-dots position: absolute bottom-44 right-20"
-            ></i>
-          </p>
-          <div class="bg-purple-800 text-white text-center p-6">
-            Distincti Animo
-            <p class="font-thin">Alliqium Bruli</p>
-          </div>
-        </div>
-        <div class="bg-white p-10 rounded-lg position: relative">
-          <p class="p-14 tracking-wide leading-loose">
-            <i
-              class="fa-regular fa-2xl fa-comment-dots position: absolute top-16"
-            ></i
-            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
-            voluptatibus quod aspernatur eius, amet excepturi?<i
-              class="fa-regular fa-2xl fa-comment-dots position: absolute bottom-44 right-20"
-            ></i>
-          </p>
-          <div class="bg-purple-800 text-white text-center p-6">
-            Distincti Animo
-            <p class="font-thin">Alliqium Bruli</p>
-          </div>
-        </div>
-        <div class="bg-white p-10 rounded-lg position: relative">
-          <p class="p-14 tracking-wide leading-loose">
-            <i
-              class="fa-regular fa-2xl fa-comment-dots position: absolute top-16"
-            ></i
-            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
-            voluptatibus quod aspernatur eius, amet excepturi?<i
-              class="fa-regular fa-2xl fa-comment-dots position: absolute bottom-44 right-20"
-            ></i>
-          </p>
-          <div class="bg-purple-800 text-white text-center p-6">
-            Distincti Animo
-            <p class="font-thin">Alliqium Bruli</p>
-          </div>
-        </div>
-      </div>
-    </main>
+    </div>
+    <div class="bg-gray-100 items-center justify-center py-8 ">
+
+        <p class="font-bold text-gray-800 font-mono text-2xl text-center py-5">What our customers our saying about us
+        </p>
+
+        <div class="flex flex-row gap-40 justify-center">
+            <div class="basis-1/6 shadow-md ">
+
+                <div class="bg-white p-4 relative">
+                    <i class="absolute top-3 left-5 fa-solid fa-quote-left p-4"></i>
+                    <p class="py-8 px-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos in, enim
+                        cum magnam quae nam doloribus.
+                    </p>
+                    <i class="absolute bottom-8 right-8 fa-solid fa-quote-right"></i>
+
+                </div>
+                <div class="bg-purple-500 p-4 items-center static">
+
+                    <p class="text-lg text-center font-semibold text-gray-900">Distinctio Animi</p>
+                    <p class="text-sm text-white text-center uppercase tracking-wide">Aliquam Illum</p>
+                </div>
 
 
-    <!-- İnputs -->
-    <section class="mx-auto bg-gray-300 px-4 md:px-10 py-10">
-      <form action="" class="grid justify-items-center bg-white p-6">
-        <div class="my-2">
-          <label for="name" class="display: block">İsim</label>
-          <input
-            class="bg-gray-100 p-2"
-            type="text"
-            id="name"
-            required
-            placeholder="Your Name"
-          />
+            </div>
+            <div class="basis-1/6 shadow-md ">
+
+                <div class="bg-white p-4 relative">
+                    <i class="absolute top-3 left-5 fa-solid fa-quote-left p-4"></i>
+                    <p class="py-8 px-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos in, enim
+                        cum magnam quae nam doloribus.
+                    </p>
+                    <i class="absolute bottom-8 right-8 fa-solid fa-quote-right"></i>
+
+                </div>
+                <div class="bg-purple-500 p-4 items-center static">
+
+                    <p class="text-lg text-center font-semibold text-gray-900">Distinctio Animi</p>
+                    <p class="text-sm text-white text-center uppercase tracking-wide">Aliquam Illum</p>
+                </div>
+
+
+            </div>
+
         </div>
 
-        <div class="my-2">
-          <label class="display: block" for="mail">Mail</label>
-          <input
-            class="bg-gray-100 p-2"
-            type="email"
-            id="mail"
-            required
-            placeholder="Your Mail"
-          />
+    </div>
+    <div class=" bg-gray-300 flex justify-center py-8 ">
+
+        <div class="basis-2/6 ">
+            <form class="bg-white p-6 rounded shadow-md  ">
+                <h2 class="text-2xl font-bold mb-5 text-start">Contact Us</h2>
+
+                <div class="mb-4">
+                    <label class="block text-gray-700 text-sm font-bold mb-2" for="name">
+                        Name
+                    </label>
+                    <input
+                        class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                        id="name" type="text" placeholder="Your Name">
+                </div>
+                <div class="mb-4">
+                    <label class="block text-gray-700 text-sm font-bold mb-2" for="email">
+                        Email
+                    </label>
+                    <input
+                        class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                        id="email" type="email" placeholder="Your email">
+                </div>
+
+                <div class="mb-4">
+                    <label class="block text-gray-700 text-sm font-bold mb-2" for="message">
+                        Message
+                    </label>
+                    <textarea
+                        class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                        id="message" type="text" placeholder="Message..."></textarea>
+                </div>
+
+                <div class="flex items-center justify-between">
+                    <button
+                        class="w-full bg-purple-700 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                        type="button">
+                        Send
+                    </button>
+
+                </div>
+            </form>
         </div>
 
-        <div class="">
-          <label class="display: block" for="metin">Metin</label>
-          <textarea
-            class="bg-gray-100 p-2"
-            name="metin"
-            id="metin"
-            rows="5"
-            cols="30"
-            placeholder="Your Message..."
-          ></textarea>
-        </div>
+    </div>
+    <div class=" rounded  container mx-auto px-4  bg-gray-300 flex  justify-center">
+        <footer class=" container mx-auto  py-4  flext justify-center ">
+            <div class="  px-8 mx-8 ">
+                <div class="grid grid-cols-2  gap-8">
+                    <div class="text-sm text-gray-600 font-bold  text-start">
+                        Mamba
+                    </div>
+                    <div class=" text-end text-gray-600 ">
+                        <i class="fa-solid fa-envelope"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                </div>
+            </div>
 
-        <div>
-          <button
-            class="m-2 rounded-lg bg-purple-800 text-white px-4 py-2 cursor-pointer"
-            type="submit"
-          >
-            Gönder
-          </button>
-          <button
-            class="m-2 rounded-lg bg-purple-800 text-white px-4 py-2 cursor-pointer"
-            type="reset"
-          >
-            Sıfırla
-          </button>
-        </div>
-      </form>
-    </section>
+        </footer>
+    </div>
+</body>
 
-
-    <!--Foot-->
-    <footer class="grid grid-cols-1 md:grid-cols-2 bg-gray-300 mx-auto p-10">
-      <ul class="flex gap-4 justify-start items-center">
-        <li>Shop</li>
-        <li>About</li>
-        <li>Blog</li>
-        <li>Pricing</li>
-        <li>Contact</li>
-      </ul>
-
-      <ul class="flex gap-4 mt-4 justify-between md:justify-end md:m-0">
-        <li
-          class="bg-purple-800 text-white size-10 rounded-full flex justify-center items-center"
-        >
-          <i class="fa-brands fa-facebook fa-xl"></i>
-        </li>
-        <li
-          class="bg-purple-800 text-white size-10 rounded-full flex justify-center items-center"
-        >
-          <i class="fa-brands fa-instagram fa-xl"></i>
-        </li>
-        <li
-          class="bg-purple-800 text-white size-10 rounded-full flex justify-center items-center"
-        >
-          <i class="fa-brands fa-instagram fa-xl"></i>
-        </li>
-        <li
-          class="bg-purple-800 text-white size-10 rounded-full flex justify-center items-center"
-        >
-          <i class="fa-brands fa-instagram fa-xl"></i>
-        </li>
-        <li
-          class="bg-purple-800 text-white size-10 rounded-full flex justify-center items-center"
-        >
-          <i class="fa-brands fa-instagram fa-xl"></i>
-        </li>
-      </ul>
-    </footer>
-
-  </body>
 </html>
