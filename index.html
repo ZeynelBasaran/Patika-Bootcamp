@@ -4,50 +4,98 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: 18px;
+            text-align: left;
+            box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+            background-color: #ffffff;
+        }
+
+        th, td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #dddddd;
+        }
+
+        thead tr {
+            background-color: #009879;
+            color: #ffffff;
+            text-align: left;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #f3f3f3;
+        }
+
+        tbody tr:hover {
+            background-color: #f1f1f1;
+            cursor: pointer;
+        }
+
+        a {
+            color: #009879;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    
-
     <table>
-        <thead >
-          <tr style="background-color: aqua">
-            <th>Hafta</th>
-            <th>Ödev</th>
-          </tr>
+        <thead>
+            <tr>
+                <th>Hafta</th>
+                <th>Ödev 1</th>
+                <th>Ödev 2</th>
+            </tr>
         </thead>
         <tbody>
-          <tr>
-            <td>1.Hafta</td>
-            <td><a href="./1Week/index.html">Merhaba</a></td>
-          </tr>
-          <tr>
-            <td>2.Hafta</td>
-            <td><a href="./2Week/2RehberWebSitesi/index.html">Rehber Web Sitesi</a></td>
-            
-          </tr>
-          <tr>
-            <td>3.Hafta</td>
-            <td><a href="./3Week/1.Ödev/index.html">2</a></td>
-            <td><a href="./3Week/2.Ödev/index.html">2</a></td>
-          </tr>
-          <tr>
-            <td>4.Hafta</td>
-            <td><a href="./4Week/1BlogÖdevi/4Blog.html">Blog Ödevi</a></td>
-            <td><a href="./4Week/2İnstagram/index.html">İnstagram Clone</a></td>
-          </tr>
-          <tr>
-            <td>5.Hafta</td>
-            <td><a href="./5Week/1TailwindCSSLandikPage.html">Tailwind 1</a></td>
-            <td><a href="./5Week/2TailwindCSSReviewPage.html">Tailwind 2</a></td>
-          </tr>
-          <tr>
-            <td>6.Hafta</td>
-            <td><a href="./6Week/Ödev1/index.html">Js Karşılama Ekranı</a></td>
-            <td><a href="./6Week/Ödev2/drumKit.html">Js Drum Kit</a></td>
-          </tr>
-          
-         
+            <tr>
+                <td>1.Hafta</td>
+                <td><a href="./1Week/index.html">Merhaba</a></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2.Hafta</td>
+                <td><a href="./2Week/2RehberWebSitesi/index.html">Rehber Web Sitesi</a></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>3.Hafta</td>
+                <td><a href="./3Week/1.Ödev/index.html">2</a></td>
+                <td><a href="./3Week/2.Ödev/index.html">2</a></td>
+            </tr>
+            <tr>
+                <td>4.Hafta</td>
+                <td><a href="./4Week/1BlogÖdevi/4Blog.html">Blog Ödevi</a></td>
+                <td><a href="./4Week/2İnstagram/index.html">İnstagram Clone</a></td>
+            </tr>
+            <tr>
+                <td>5.Hafta</td>
+                <td><a href="./5Week/1TailwindCSSLandikPage.html">Tailwind 1</a></td>
+                <td><a href="./5Week/2TailwindCSSReviewPage.html">Tailwind 2</a></td>
+            </tr>
+            <tr>
+                <td>6.Hafta</td>
+                <td><a href="./6Week/Ödev1/index.html">Js Karşılama Ekranı</a></td>
+                <td><a href="./6Week/Ödev2/drumKit.html">Js Drum Kit</a></td>
+            </tr>
         </tbody>
-      </table>
+    </table>
 </body>
 </html>
