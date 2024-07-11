@@ -12,7 +12,6 @@ window.addEventListener("keyup",(e)=>{
                 el.classList.remove("rgba")
             }, 500);
 
-
         }
         function stopSongs(){
             const audi = document.querySelectorAll("audio")
