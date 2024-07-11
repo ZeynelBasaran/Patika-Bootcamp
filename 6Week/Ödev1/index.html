@@ -100,7 +100,11 @@
         "Aralık",
       ];
 
-      var name = prompt("Lütfen İsminizi giriniz");
+      let name = prompt("Lütfen İsminizi giriniz");
+
+      if(name=== ""){
+        alert("Lütfen isminizi giriniz")
+      }
 
       function showTime() {
         let zaman = new Date();
@@ -110,6 +114,7 @@
         let seconds = zaman.getSeconds();
         if (minute < 10) minute = "0" + minute;
         if (hours < 10) hours = "0" + hours;
+        if (seconds < 10) seconds = "0" + seconds;
 
         myName.classList.add("red");
         myName.textContent = name.toUpperCase();
