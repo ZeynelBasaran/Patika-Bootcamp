@@ -58,7 +58,7 @@ input:focus{
     text-decoration:line-through;
 }
 button{
-   margin-top: 10px;
+   margin: 10px 0;
    text-align: center;
    padding: 10px;
    color: rgb(179, 131, 226);
