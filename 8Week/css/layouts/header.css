@@ -1,0 +1,37 @@
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    background-color: transparent;
+}
+#header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+#header .logo img{
+    display: block;
+}
+
+#navbar{
+    padding: 0;
+}
+#navbar ul{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+#navbar ul li{
+    padding: 6px 10px;
+    position: relative;
+}
+#navbar ul li a{
+    font-size: 12px;
+    padding: 5px;
+    cursor: pointer;
+    font-weight: 500;
+}
