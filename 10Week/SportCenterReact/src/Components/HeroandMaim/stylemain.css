@@ -1,0 +1,148 @@
+main {
+  background: url(./public/hero-man.jpg) no-repeat center center;
+  width: 100%;
+  background-size: cover;
+}
+main nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+main nav div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main nav img {
+  height: 50px;
+}
+main nav .navmenu {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+main nav .navmenu button {
+  margin-right: 0;
+  background-color: rgb(231, 160, 60);
+  padding: 10px 16px;
+  border-radius: 4px;
+  font-size: 1.1rem;
+  font-weight: 900;
+}
+main nav .navmenu li a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  cursor: pointer;
+  margin-right: 14px;
+  padding: 4px 6px;
+  border-radius: 4px;
+  transition: background-color 1s;
+}
+main nav .navmenu li a:hover {
+  border-radius: 4px;
+  background-color: #f0f8ff;
+  color: #4b4b4b;
+}
+
+.bar-icon {
+  display: none;
+}
+.fa-solid.fa-bars {
+  cursor: pointer;
+}
+
+main nav .burger {
+  display: none;
+}
+main nav .burger.actives {
+  display: flex;
+  flex-direction: column;
+  background-color: #325493;
+  position: absolute;
+  right: -10%;
+  top: 50px;
+  list-style-type: none;
+  padding: 20px 50px;
+  animation: slideIn 1s forwards;
+}
+main nav .burger.actives li {
+  margin-top: 10px;
+}
+main nav .burger.actives button {
+  margin-top: 10px;
+  background-color: rgb(231, 160, 60);
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 1.1rem;
+  font-weight: 900;
+}
+@keyframes slideIn {
+  to {
+    right: 0%; /* Kutunun ekranda görüneceği son konum */
+  }
+}
+
+/* Hero */
+main .hero {
+  padding: 120px 150px 50px 0;
+}
+main .hero h1 {
+  font-size: 3rem;
+}
+main .hero p {
+  font-size: 1.3rem;
+}
+main .hero button {
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+  margin-top: 5px;
+  border-radius: 4px;
+  font-weight: 900;
+}
+.btn1 {
+  background-color: #34529a;
+  border: #34529a solid;
+  transition: background-color 1s;
+}
+
+.btn2 {
+  background-color: transparent;
+  border: #ffffff solid 1px;
+  margin-left: 20px;
+  transition: background-color 1s;
+}
+.btn1:hover,
+.btn2:hover {
+  background-color: rgb(231, 160, 60);
+  border: #ffffff solid 1px;
+}
+
+/*Responsive 750px*/
+@media (max-width: 750px) {
+  main nav .container .navmenu {
+    display: none;
+  }
+  .bar-icon {
+    display: block;
+  }
+
+}
+
+/*Responsive 861px*/
+@media (max-width: 861px) {
+  #section3 .trainers .images {
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  main nav .navmenu li a {
+    margin-right: 6px;
+    padding: 2px 6px;
+    font-size: 0.9rem;
+  }
+  
+  
+}

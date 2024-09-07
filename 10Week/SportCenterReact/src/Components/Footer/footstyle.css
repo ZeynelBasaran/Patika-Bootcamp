@@ -1,0 +1,26 @@
+footer {
+    background-color: #325493;
+    padding-bottom: 20px;
+  }
+  #footer .text {
+    text-align: justify;
+    padding-bottom: 20px;
+  }
+  #footer .foot {
+    display: flex;
+    justify-content: space-between;
+    gap: 250px;
+  }
+  #footer .foot .menu {
+    list-style-type: none;
+  }
+  
+  #footer .foot .menu li {
+    margin-top: 10px;
+  }
+  #footer .foot .menu li a {
+    margin-top: 10px;
+  }
+  .bars {
+    display: none;
+  }

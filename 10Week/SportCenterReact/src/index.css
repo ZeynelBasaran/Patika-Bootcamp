@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-size: 16px;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+  }
+  .container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  button {
+    color: #ffffff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  hr {
+    width: 70px;
+    background-color: #f39d09;
+    height: 8px;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  .white {
+    background-color: #ffffff;
+  }
+  .blue {
+    background-color: #f2f8ff;
+  }
+  p {
+    font-weight: 500;
+  }
+
+  /*Responsive 1024px*/
+@media (max-width: 1024px) {
+  #section1 .container p {
+    padding: 40px 15px;
+  }
+}
+
+/*Responsive 861px*/
+@media (max-width: 861px) {
+  #section3 .trainers .images {
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  main nav .navmenu li a {
+    margin-right: 6px;
+    padding: 2px 6px;
+    font-size: 0.9rem;
+  }
+  #section3 .purchase .card-section {
+    flex-direction: column;
+    gap: 50px;
+  }
+  #section2 .info {
+    padding: 50px 0;
+  }
+  #section2 .calc {
+    flex-wrap: wrap;
+  }
+  #section2 .chosed {
+    flex-wrap: wrap;
+  }
+}
+
+/*Responsive 750px*/
+@media (max-width: 750px) {
+  main nav .container .navmenu {
+    display: none;
+  }
+  .bar-icon{
+    display: block;
+  }
+ 
+  #section3 .trainers .dialog {
+    flex-direction: column;
+  }
+  #section3 .trainers .contact {
+    flex-direction: column;
+  }
+  #footer .foot{
+    gap: 100px;
+  } 
+ 
+  
+}
+
+@media (min-width: 750px) {
+  main nav .burger.actives {
+    display: none;
+  }
+}
+
+/*Responsive 576px*/
+@media (max-width: 576px) {
+  .container {
+    width: 92%;
+  }
+  .res-btn {
+    width: 100%;
+    margin-left: 0;
+  }
+  main .hero {
+    padding: 80px 10px 30px 10px;
+  }
+
+  #section1 .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #section2 .container {
+    padding: 80px 10px 30px 10px;
+  }
+  #section2 .chosed {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 10px 30px 10px;
+  }
+}

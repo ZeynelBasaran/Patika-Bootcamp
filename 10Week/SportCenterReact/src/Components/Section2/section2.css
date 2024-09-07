@@ -1,0 +1,133 @@
+/* Section 2*/
+#section2 {
+  color: #4b4b4b;
+}
+.bg {
+  background: linear-gradient(60deg, #ffffff 50%, #f6f6f6 50%);
+}
+#section2 .info {
+  padding: 50px 100px;
+}
+#section2 .info .header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#section2 .info .header h2 {
+  color: #34529a;
+  font-weight: 900;
+}
+
+#section2 .info .header .text {
+  margin: 20px 0;
+  text-align: center;
+  font-weight: 500;
+}
+
+#section2 .info .chose {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 50px 0;
+}
+
+#section2 .info button {
+  position: relative;
+  padding: 0.5rem 0;
+  width: 100px;
+  font-size: 1.1rem;
+  border-radius: 4px;
+  background-color: #34529a;
+  color: #ffffff;
+  transition: background-color 1s;
+  font-weight: 900;
+  margin-top: 10px;
+}
+#section2 .info .chose .yoga.active,#section2 .info .chose .group.active,#section2 .info .chose .solo.active,#section2 .info .chose .stretch.active {
+  background-color: #f39d09;
+  color: #ffffff;
+}
+#section2 .info .chose button i {
+  position: absolute;
+  font-size: 1rem;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #f39d09;
+  visibility: hidden;
+}
+#section2 .info .chose .yoga.active i,#section2 .info .chose .group.active i {
+  visibility: visible;
+}
+
+#section2 .chosed {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  text-align: justify;
+}
+#section2 .chose button:hover {
+  background-color: #f39d09;
+}
+
+#section2 .chosed .chosed-info h2 {
+  margin-bottom: 10px;
+  font-weight: 900;
+}
+#section2 .chosed .chosed-info p {
+  margin-bottom: 15px;
+}
+
+#section2 .chosed div img {
+  max-width: 100%;
+}
+#section2 .calc {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+}
+#section2 .calc .calc-info h2 {
+  color: #34529a;
+  margin-bottom: 20px;
+  font-weight: 900;
+}
+#section2 .calc .calc-info p {
+  text-align: justify;
+  margin-bottom: 20px;
+}
+#section2 .calc .calc-info input {
+  padding: 2px 4px;
+}
+#section2 .calc .calc-info input:focus {
+  outline: none;
+}
+#section2 .calc .calc-info label {
+  margin-left: 3px;
+}
+#section2 .calc .calc-info div:nth-of-type(2) {
+  margin-top: 10px;
+}
+#section2 .calc .images {
+  width: 100%;
+}
+#section2 .calc .images div {
+  position: relative;
+  max-width: 100%;
+}
+#section2 .calc .images p {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+#section2 .calc .images div img {
+  width: 100%;
+}
+#section2 .calc .images i {
+  position: absolute;
+  bottom: 0;
+  left: 9%;
+  color: #f39d09;
+  transition: all 1s;
+}
