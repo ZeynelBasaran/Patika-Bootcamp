@@ -1,0 +1,10 @@
+.list li label{
+    margin-left: 20px;
+}
+.list{
+    opacity: 0;
+}
+.animation{
+    opacity: 1;
+}
+
