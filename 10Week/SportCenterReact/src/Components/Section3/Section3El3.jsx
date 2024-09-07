@@ -1,4 +1,6 @@
 import React from 'react'
+import client1 from "/public/client1.jpg"
+import client2 from "/public/client2.jpg"
 
 function SectionEl3() {
   return (
@@ -14,7 +16,7 @@ function SectionEl3() {
         <div className="dialog">
           <div className="dialog-one">
             <div className="dialog-person">
-              <img src="./public/client1.jpg" alt="" />
+              <img src={client1} alt="" />
               <div className="">
                 <p>Diet Expert</p>
                 <span>CFO</span>
@@ -30,7 +32,7 @@ function SectionEl3() {
           </div>
           <div className="dialog-one">
             <div className="dialog-person">
-              <img src="./public/client2.jpg" alt="" />
+              <img src={client2} alt="" />
               <div className="">
                 <p>Cardio Trainer</p>
                 <span>CEO</span>

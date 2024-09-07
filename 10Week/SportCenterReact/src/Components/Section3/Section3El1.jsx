@@ -1,4 +1,8 @@
 import React from 'react'
+import trainers1 from "/public/trainer1.jpg"
+import trainers2 from "/public/trainer2.jpg"
+import trainers3 from "/public/trainer3.jpg"
+
 
 function SectionEl1() {
   return (
@@ -13,21 +17,21 @@ function SectionEl1() {
       </p>
       <div className="images">
         <div className="img-div">
-          <img src="./public/trainer1.jpg" alt="" />
+          <img src={trainers1} alt="" />
           <div className="path">
             <h3>John Due</h3>
             <p>Cardio Tranier</p>
           </div>
         </div>
         <div className="img-div">
-          <img src="./public/trainer2.jpg" alt="" />
+          <img src={trainers2} alt="" />
           <div className="path">
             <h3>John Due</h3>
             <p>Cardio Tranier</p>
           </div>
         </div>
         <div className="img-div">
-          <img src="./public/trainer3.jpg" alt="" />
+          <img src={trainers3} alt="" />
           <div className="path">
             <h3>John Due</h3>
             <p>Cardio Tranier</p>

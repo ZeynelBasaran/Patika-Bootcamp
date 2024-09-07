@@ -13,6 +13,8 @@ function Main() {
       navBar.style.backgroundColor = "";
     }
   });
+
+  
   return (
     <>
       <main>

@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "/public/logo.png"
 
 function Nav() {
   function addMenu() {
@@ -10,7 +11,7 @@ function Nav() {
       <div className="container navbars">
         <div className="logo">
           <a href="#">
-            <img src="./public/logo.png" alt="powerfull" />
+            <img src={logo} alt="powerfull" />
           </a>
         </div>
         <ul className="navmenu">

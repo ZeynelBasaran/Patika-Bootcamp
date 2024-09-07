@@ -1,6 +1,7 @@
 import React from "react";
 import { useEffect } from "react";
 import { useState } from "react";
+import indexx from "/public/bmi-index.jpg"
 
 function Section2El2() {
   const [kg, setKg] = useState("");
@@ -82,7 +83,7 @@ function Section2El2() {
           Your BMI: <span className="BMI">{bmi}</span>
         </p>
         <div>
-          <img src="./public/bmi-index.jpg" alt="" />
+          <img src={indexx} alt="" />
           <i className="fa-solid fa-caret-up fa-2xl"></i>
         </div>
       </div>

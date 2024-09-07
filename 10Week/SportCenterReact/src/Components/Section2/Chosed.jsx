@@ -1,5 +1,9 @@
 import React from "react";
 import { useState } from "react";
+import Yoga from "/public/yoga.jpg"
+import Group from "/public/group.webp"
+import Solo from "/public/solo.jpg"
+import Strecht from "/public/stret.webp"
 
 function Chosed({active}) {
     console.log(active)
@@ -21,7 +25,7 @@ function Chosed({active}) {
               <p>Wednesday - Friday: 08:00am -09:00am</p>
             </div>
             <div className="images">
-              <img src="./public/yoga.jpg" alt="" />
+              <img src={Yoga} alt="" />
             </div>
           </div>
         );
@@ -42,7 +46,7 @@ function Chosed({active}) {
               <p>Wednesday - Friday: 08:00am -09:00am</p>
             </div>
             <div className="images">
-              <img src="./public/group.webp" alt="" />
+              <img src={Group} alt="" />
             </div>
           </div>
         );
@@ -63,7 +67,7 @@ function Chosed({active}) {
               <p>Wednesday - Friday: 08:00am -09:00am</p>
             </div>
             <div className="images">
-              <img src="./public/solo.jpg" alt="" />
+              <img src={Solo} alt="" />
             </div>
           </div>
         );
@@ -84,7 +88,7 @@ function Chosed({active}) {
               <p>Wednesday - Friday: 08:00am -09:00am</p>
             </div>
             <div className="images">
-              <img src="./public/stret.webp" alt="" />
+              <img src={Strecht} alt="" />
             </div>
           </div>
         );

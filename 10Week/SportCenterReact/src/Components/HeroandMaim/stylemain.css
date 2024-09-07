@@ -1,5 +1,7 @@
+
+
 main {
-  background: url(./public/hero-man.jpg) no-repeat center center;
+  background: url(/public/hero-man.jpg) no-repeat center center;
   width: 100%;
   background-size: cover;
 }
