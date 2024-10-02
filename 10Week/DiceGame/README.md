@@ -1,8 +1,12 @@
 # Patika-Bootcamp
 
-**# Canlı Linki Tüm Ödevler**
+
+
+**# Bu Ödevin Canlı Linki**
 [# Patika-Bootcamp] (https://zaratmaca.netlify.app/)
 
 
-**# Canlı Linki Tüm Ödevler**
+
+
+**#Tüm Ödevler Canlı Linki**
 [# Patika-Bootcamp] (https://zeynelbasaran.github.io/Patika-Bootcamp/)

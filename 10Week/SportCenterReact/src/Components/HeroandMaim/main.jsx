@@ -1,4 +1,4 @@
-import React from "react";
+
 import "./stylemain.css";
 import Nav from "./Nav";
 import DivCont from "./DivCont";

@@ -1,6 +1,6 @@
 # Patika-Bootcamp
 
-**# Tüm Ödevler Canlı Linki **
+**# Bu Ödevin Canlı Linki **
 [# Patika-Bootcamp] (https://sportcenterreactt.netlify.app/)
 
 
