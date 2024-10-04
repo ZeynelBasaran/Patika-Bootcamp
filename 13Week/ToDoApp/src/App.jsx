@@ -1,10 +1,9 @@
 import { useEffect, useState } from "react";
 
-
-
-
-
 function App() {
+  const handleSubmit = (e) => {
+    e.preventDefault(); // Sayfanın yeniden yüklenmesini önler
+  }
   
   const [completedBtn, setCompletedBtn] = useState(false)
   const [completedItems, setCompletedItems] = useState([])
@@ -35,7 +34,7 @@ function App() {
     setCompletedItems(completedFilter)
 
 
-  },[todos,activeItemsLength,todo])
+  },[todos])
 
   //Add Todo
   const newTodoFunc = (e) => {
@@ -72,7 +71,6 @@ function App() {
     setActiveBtn(true)
     setAllBtn(false)
     setCompletedBtn(false)
-    
   }
   const completedItemFunc = () => {
     setActiveBtn(false)
@@ -108,7 +106,7 @@ function App() {
       <section className="todoapp">
         <header className="header">
           <h1>todos</h1>
-          <form>
+          <form onSubmit={handleSubmit}>
             <input
               onKeyDown={handleKeyDown}
               value={todo.text}
@@ -198,7 +196,7 @@ export default App;
 
 /*
 
-
+allCheckFunc()
 
  value={changeTodo} onClick={(e)=>{changeTodoFunc(item,idx,e)}}
   const changeTodoFunc = (item,e) => {
@@ -211,9 +209,3 @@ export default App;
 */
 
 
-/*
-
- 
-
-
-*/
