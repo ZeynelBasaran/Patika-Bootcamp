@@ -9,6 +9,7 @@ function ActivePageProvider({ children }) {
   const [basket, setBasket] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [money, setMoney] = useState(10000000);
 
 
 
@@ -25,9 +26,10 @@ function ActivePageProvider({ children }) {
   };
 
 
+console.log(basket)
 
   return (
-    <AppContext.Provider value={{basket,setBasket,data,setData,getData,error,loading }}>
+    <AppContext.Provider value={{basket,setBasket,data,setData,getData,error,loading,money,setMoney }}>
       {children}
     </AppContext.Provider>
   );

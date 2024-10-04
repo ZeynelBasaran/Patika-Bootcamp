@@ -5,22 +5,44 @@ export default function Cards({ item }) {
   const { basket, setBasket } = useContext(AppContext);
 
   const addBasketİtem = () => {
+
+
+    const findItem = basket?.find((items) => items.id === item.id);
     
+    //basket?.filter((items) => items.id !== item.id)
+    setBasket((prev)=> prev.filter(items=> items.id==item.id))
+    
+    if (findItem) {
+      
+      setBasket(prev => [...prev, { ...findItem, adet:findItem.adet+1 }])
+      /*
+       return state.map((item) =>
+          item.id === action.payload.id ? { ...item, qty: item.qty + 1 } : item
+        );
+        */
+    } else {
+      setBasket(prev => [...prev, { ...item, adet: 1 }])
+    }
   };
 
   /*
-
+   
+  
+  
   const exists = state.find((item) => item.id === action.payload.id);
-      if (exists) {
-        return state.map((item) =>
-          item.id === action.payload.id ? { ...item, qty: item.qty + 1 } : item
-        );
+  if (exists) {
+    return state.map((item) =>
+      item.id === action.payload.id ? { ...item, qty: item.qty + 1 } : item
+    );
+
   */
+
+
 
   const removeBasketİtem = () => {
     console.log(item);
 
-    //setBasket((prev)=> prev.filter(items=> items.id==item.id))
+    setBasket((prev)=> prev.filter(items=> items.id==item.id))
     //console.log(basket)
 
     //setBasket((prev) => [...prev, item]);
